@@ -63,21 +63,21 @@ const Navbar = ({
                   Home
                 </a>
                 <a
-                  href="about"
+                  href="#about"
                   className="text-gray-300 hover:text-white transition-colors"
                   onClick={() => setIsMenu(false)}
                 >
                   About
                 </a>
                 <a
-                  href="projects"
+                  href="#projects"
                   className="text-gray-300 hover:text-white transition-colors"
                   onClick={() => setIsMenu(false)}
                 >
                   Projects
                 </a>
                 <a
-                  href="contact"
+                  href="#contact"
                   className="text-gray-300 hover:text-white transition-colors"
                   onClick={() => setIsMenu(false)}
                 >
