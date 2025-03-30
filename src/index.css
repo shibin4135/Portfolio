@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+    @keyframes loading {
+        0% {
+            transform: translateX(0%);
+        }
+
+        100% {
+            transform: translateX(250%);
+        }
+    }
+
+    .animate-loading-bar {
+        animation: loading 2s ease infinite;
+    }
+
+    @keyframes blink {
+
+        0%,
+        100% {
+            opacity: 1;
+        }
+
+        50% {
+            opacity: 0;
+        }
+
+
+    }
+
+    .animate-blink {
+        animation: blink 1s infinite step-end;
+    }
+}
