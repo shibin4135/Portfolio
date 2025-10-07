@@ -2,15 +2,14 @@ const Projects = () => {
   const projects = [
     {
       title: "Blog App",
-      description:
-        "Created A Basic Blog App With Next js and mongodb with all Crud Operations",
-      link: "https://github.com/shibin4135/Blog-App",
+      description: "Built a full-stack blog application with features like bookmarks, likes, comments, and pagination. Focused on creating a clean, responsive UI with React while implementing REST API and database design",
+      link: "blog.shibinx.dev",
     },
     {
       title: "REST API for authentication",
       description:
-        "Created A solid REST API System For Book including the user authentication ,CRUD Operations in Node,Express and Typescript",
-      link: "https://github.com/shibin4135/Rest-Api",
+        "A full-stack job portal built with Next.js, Prisma, TypeScript, and Tailwind CSS. It enables users to sign up, log in/out, create and apply for jobs, and browse all available listings through a clean, responsive interface powered by a robust backend.",
+      link: "jobport-ten.vercel.app",
     },
     {
       title: "Quiz-App",
