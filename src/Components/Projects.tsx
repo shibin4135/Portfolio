@@ -1,15 +1,15 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Blog App",
+      title: "Full Stack Blog App",
       description: "Built a full-stack blog application with features like bookmarks, likes, comments, and pagination. Focused on creating a clean, responsive UI with React while implementing REST API and database design",
-      link: "blog.shibinx.dev",
+      link: "https://blog.shibinx.dev",
     },
     {
-      title: "REST API for authentication",
+      title: "Full Stack Job Portal",
       description:
         "A full-stack job portal built with Next.js, Prisma, TypeScript, and Tailwind CSS. It enables users to sign up, log in/out, create and apply for jobs, and browse all available listings through a clean, responsive interface powered by a robust backend.",
-      link: "jobport-ten.vercel.app",
+      link: "https://jobport-ten.vercel.app",
     },
     {
       title: "Quiz-App",
